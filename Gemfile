@@ -10,6 +10,3 @@ gem 'bitters'
 
 # Foreman for development server
 gem 'foreman'
-
-# Haml!
-gem 'haml'
