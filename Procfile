@@ -1,3 +1,3 @@
-server: jekyll watch
+server: jekyll serve --watch
 sass: sass --watch _sass:stylesheets
 

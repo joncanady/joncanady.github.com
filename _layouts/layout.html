@@ -9,6 +9,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <link rel="alternate" type="application/rss+xml" href="/atom.xml" />
+  <link rel="stylesheet" type="text/css" href="/stylesheets/main.css" />
+  <link href='http://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
 
   <!--[if lt IE 9]>
   <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -16,47 +18,31 @@
 </head>
 
 <body>
-  <div class="navbar navbar-inverse navbar-fixed-top">
-    <div class="navbar-inner">
-      <div class="container">
-        <a class="brand" href="/">{{ site.title }}</a>
-        <ul class="nav">
-          <li><a href="/about.html">about</a></li>
-        </ul>
-        </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="container">
-    {{ content }}
-  </div>
+<div id="main-column">
 
-  <div id="footer">
-    <section class="meta">
-      <div class="container">
-        <div class="row">
-          <div class="span3"></div>
-          <div class="span2">
-            <a href="https://twitter.com/{{ site.author.twitter }}">
-              <i class="icon icon-twitter-sign"></i>
-              <div>Follow me on Twitter.</div>
-            </a>
-          </div>
-          <div class="span2"></div>
-          <div class="span2 next">
-            <a href="https://github.com/{{ site.author.github }}">
-              <i class="icon icon-github-sign"></i>
-              <div>
-                Check out my code on GitHub.
-              </div>
-            </a>
-          </div>
-          <div class="span3"></div>
-        </div>
-      </div>
-    </section>
-  </div>
+  <header class="site">
+    <h1>Jon Canady</h1>
+    <ul>
+      <li><a href="/">Posts</a></li>
+      <li><a href="http://speakerdeck.com/joncanady/">Talks</a></li>
+      <li><a href="http://github.com/joncanady/">Code</a></li>
+      <li><a href="/about/">About</a></li>
+    </ul>
+  </header>
+
+  {{ content }}
+
+  <footer class="meta">
+    <p>Follow me on <a href="https://twitter.com/{{ site.author.twitter }}">
+      Twitter
+    </a>
+    or check out some code on 
+    <a href="https://github.com/{{ site.author.github }}">
+      Github
+    </a></p>
+  </footer>
+</div>
+
 </body>
-
 </html>
