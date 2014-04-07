@@ -1,6 +1,7 @@
 markdown: redcarpet
 pygments: true
 permalink: /blog/:year/:month/:day/:title
+include: ['.well-known']
 rdiscount:
   extensions: [smart]
 title : joncanady (dot com)
