@@ -1,0 +1,71 @@
+==================================================================
+https://keybase.io/joncanady
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://joncanady.com
+  * I am joncanady (https://keybase.io/joncanady) on keybase.
+  * I have a public key with fingerprint FE37 0AFC ED4B CBFA EBAB  F339 061C 7E88 94F8 D7EA
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "fe370afced4bcbfaebabf339061c7e8894f8d7ea",
+            "host": "keybase.io",
+            "key_id": "061c7e8894f8d7ea",
+            "uid": "b29e1e40c3d76dd88fa6f647108d2d00",
+            "username": "joncanady"
+        },
+        "service": {
+            "hostname": "joncanady.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1396892732,
+    "expire_in": 157680000,
+    "prev": "628a093293c12874ae4203bc95b73708d39c61d215289d243b0d9091665636f6",
+    "seqno": 11,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owGbwMvMwMXIJlPXMeXH9VeMpw98TWIIdnoSUa2UlJ9SqWRVrZSdCqbSMvPSU4sK
+ijLzSpSslNJSjc0NEtOSU1NMkpKT0hJTkxKT0oyNLQ3MDJPNUy0sLE3SLFLMUxOV
+dJQy8otBOoDGJCUWp+pl5gPFgJz4zBSgKBb1pWCJJCPLVMNUE4Nk4xRzs5QUC4u0
+RLM0MxNzQwOLFKMUAwOQwuLUorzE3FSg6qz8vOTEvESgg2t1lIDCZZnJqSBHg+xG
+V6KXnJ8L1F1QlF+Sn5yfA5TKKCkpsALpLKksACktT02KhxoSn5SZlwL0OVBDWWpR
+cWZ+npKVIVBlckkmyFRDY0szC0sjc2MjHaXUioLMotT4TJAKU3MzCwMgAFmTWgY0
+0szIItHA0tjI0jjZ0MjC3CQx1cTIwDgp2dI0yRwYkhYpxpbJZoYpRoamRhaWKUYm
+xkkGKZYGloZmZqZmxkCPK4G8VZiXDzTbEOjOxHSgmcWZ6XmJJaVFqUq1XJ1MMiwM
+jFwMbKxMoNhj4OIUgMVp6wMBhobf+x1Z7r6t3HZW5bzaKx0GleSVF3Z2sJycO83L
+4+sDD7tX56P3PIkUfdG3Q/9BkmPj4SdyprNXrtR73LboTmkqo87sa1eeLFlxPcf7
+vOgzlluZl+Yn2p6+q6xz8ParD8Jnp7g5+QRpOu7Z2DM99sgaE0FpwTsTD16vWyJ5
+81apQo7eb+uv0YddDl2LXVL7SVVphgNb2tMr6pOv16i3von5XJi+/sTvbV+/7VKI
+vx3XpzDb40/BJ/WzzXXet+M7f1+ZFxf+4y5z1bW2Ci+dR71u/fcPb5DsufHkjvaW
+ogV3BDa9c+CN3ufExmh5cDMHW2KSovI7bl7LRRczAluCenUY57+wVhOvY/ognVZk
+0XDFtLB4ufOMmaJ/txe6iT95Pd+7b+uv12yN+rb2b86+ePLicHzfoyszTryakKEu
+fryAz9j84EZR02nfFopdbeK8YPE9ScORqfwTZ/w2qUdL7WY46TEzP4g+28AvIP/P
+WItbYNbxdr6Vp3YXVi6I7OXojPIuPrCnM+FLnPSBgp+ZHuY+pu66vgfXzfpV+/C7
+yl6PWPsghfa65A0aNpXCE1y4ws8bLPK9seYxW9D5DYW7L/1YeTAgef7UrbneBx4Y
+X//FftDry+5Z1Q+SuV+V2v6X3v9HYQlTFN/7BdYRuywnnPKVm7/51h3H7CPRary7
+nF4J5Ece2TspSe3diaaljfzlbxlU4ttWW4Zd8Dv7jQsA
+=4fy/
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/joncanady
+
+==================================================================
+
