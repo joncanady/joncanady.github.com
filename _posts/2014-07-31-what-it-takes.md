@@ -22,7 +22,7 @@ If you want a job doing web development, doing a CRUD webapp top to bottom is ta
 
 That's the bare minimum. If I'm hiring a professional web developer, I'd also expect knowledge on:
 
-* Autoamted testing with something like RSpec
+* Automated testing with something like RSpec
 * Version control with Git
 * Javascript, at least enough to use JQuery
 
