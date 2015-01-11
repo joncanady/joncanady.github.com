@@ -1,9 +1,10 @@
 ---
 layout: post
 title: 'Review: Kinesis Freestyle Keyboard'
+categories: hardware
 ---
 
-I've been using my new Kinesis Freestyle keyboard all this afternoon. 
+I've been using my new Kinesis Freestyle keyboard all this afternoon.
 
 Check out my [Flickr set](http://www.flickr.com/photos/jcanady/sets/72157623032263907/) for some pictures of it in action, as well as some closeups of the issues I'll mention below.
 

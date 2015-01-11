@@ -1,11 +1,12 @@
 ---
 layout: post
 title: The Security Magic Bullet
+categories: software
 ---
 
 > Screw input validation, love output normalization.
 
-That was a recent comment on Hacker News, probably made by a programmer. How are there still people that don't understand *there's no magic bullet*? 
+That was a recent comment on Hacker News, probably made by a programmer. How are there still people that don't understand *there's no magic bullet*?
 
 0. Assume hostility
 1. Input validation

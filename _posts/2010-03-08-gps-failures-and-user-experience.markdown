@@ -1,8 +1,9 @@
 ---
 layout: post
 title: GPS Failures and User Experience
+categories: software
 ---
- 
+
 My GPS taught me a valuable lesson about user experience the other day.
 
 I normally drive on the highways whenever possible, but there was a massive snowstorm in Columbus one evening and I told my GPS to ignore highways due to numerous accidents.

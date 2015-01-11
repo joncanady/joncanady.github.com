@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Who Failed Brendan Eich?
+categories: software people
 ---
 
 A response to [Brendan Eich, We've Failed You. I'm
-Sorry.](https://medium.com/p/3c613ea188d7). 
+Sorry.](https://medium.com/p/3c613ea188d7).
 
 **tl;dr**: The entire post makes no sense.
 
@@ -12,7 +13,7 @@ Sorry.](https://medium.com/p/3c613ea188d7).
 > criticize yours. I’m sorry.
 
 Freedom of expression includes criticism of someone else's speech and
-expression. You can't have one without the other. 
+expression. You can't have one without the other.
 
 > We encourage others to be tolerant; yet, we have been intolerant of you. I’m
 > sorry.
@@ -58,17 +59,16 @@ Maybe that's just me though.
 > support you, we didn’t. I’m sorry.
 
 What does being a "pillar of the open source community" (of course, there's only
-the *one* community) have to do with being the public face of an organization? 
+the *one* community) have to do with being the public face of an organization?
 
 I applaud Mr. Eich for his many achievements: Javascript chief amongst them, a
 long and successful tenure in the industry another. I don't know him personally,
 but I don't wish him any particular harm. Hopefully, he has a strong
-support network of friends and family; surely this is a rough time for him. 
+support network of friends and family; surely this is a rough time for him.
 
 Blindly stating that "this guy is one of ours and we didn't back him when he
 needed us" ignores the fact that Mozilla is a huge part of the greater
 open-source and web development community, and a lot of LGBTQ folks were
-concerned when Eich was made CTO and later CEO. 
+concerned when Eich was made CTO and later CEO.
 
 This kind of crap is how you end up with the "old-boys club" power structure.
-

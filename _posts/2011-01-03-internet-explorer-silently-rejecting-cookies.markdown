@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Internet Explorer (Silently) Rejecting Cookies
+categories: software
 ---
 
 I spent an entire day last week trying to figure out why one of our
@@ -19,7 +20,7 @@ the domain the user is actually *visiting.*
 
 It turns out that IE *will* accept third-party cookies that come with a proper [P3P
 privacy header](http://evolt.org/node/20756) that fits with the user's
-security settings. 
+security settings.
 
 (An interesting side note: Safari comes with two settings for
 third-party cookeis: Always or Never, regardless of P3P headers.)
@@ -34,4 +35,3 @@ apparently checks the domain field *very* strictly, and refuses to set
 the cookie. Worse, it does so *without ever telling the user*, and the
 only solution is to switch to a subdomain that doesn't contain invalid
 characters.
-

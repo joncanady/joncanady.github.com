@@ -2,7 +2,7 @@
 layout: post
 title: "Presenters: Cleaning Up Rails Views"
 date: 2012-01-11 20:52
-comments: true
+comments: false
 categories: software
 ---
 
@@ -62,20 +62,20 @@ class ListPresenter
   def show_member_grid?
     @member.present?
   end
-    
+
 end
 ```
 
 Things to note:
 
 * This is just a class -- a PORO, if you like. No need for additional
-  dependencies.  
+  dependencies.
 * In addition to just wrangling up a bunch of variables into a single
   class, we're also adding convenience methods: in this case, you can call
   `each` on the presenter and it'll do the right thing.
 * The presenter is a great place to add presentational methods.
 * [`Hash#fetch`][hash-fetch], which is pretty great if you've
-  never heard of it. (That method name is a hyperlink to the API docs!) 
+  never heard of it. (That method name is a hyperlink to the API docs!)
 
 You'd use it like so:
 

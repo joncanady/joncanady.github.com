@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Switching on object class in Ruby
+categories: software
 ---
 
 So it turns out, if you're trying to do one of these:

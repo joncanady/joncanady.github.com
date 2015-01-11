@@ -1,6 +1,7 @@
 ---
 layout: post
 title: PHP Security Presentation at Columbus OWASP
+categories: speaking software
 ---
 
 On March 23 I gave an hour-long presentation at the Columbus OWASP on PHP security. It went through the <a href="http://www.owasp.org/index.php/Top_10_2007">OWASP Top Ten</a>, described each vulnerability, showed some vulnerable code, and explained the fix.

@@ -1,13 +1,15 @@
+name: Jon Canady
+description: DERP
+meta_description: "Jon Canady, Software Developer in Columbus OH"
+
 markdown: redcarpet
 highlighter: pygments
-permalink: /blog/:year/:month/:day/:title
-include: ['.well-known']
-rdiscount:
-  extensions: [smart]
-title : joncanady (dot com)
-production_url : http://joncanady.com
-description: "A site."
-author :
-  name : Jon Canady
-  github : joncanady
-  twitter : joncanady
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'http://joncanady.com'
+# google_analytics: 'UA-XXXXXXXX-X'
+
+# Details for the RSS feed generator
+url:            'http://joncanady.com/'
+author:         'Jon Canady'

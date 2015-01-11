@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Jekyll Helper Scripts
+categories: software meta
 ---
- 
+
 I have a couple of helper scripts that I couldn't use Jekyll without:
 
 ## deploy
@@ -28,12 +29,12 @@ This one is a lifesaver. I can't remember where I found the original ruby script
 # Change the blog_dir variable below, and you should be set.
 # For maximum win, put in ~/bin/ (and add that to your $PATH)
 #
-# Jon Canady, 2010. 
+# Jon Canady, 2010.
 # Covered by the WTFPL: http://sam.zoy.org/wtfpl/
 ###
 
 # omit the trailing slash, please
-blog_dir = "/Users/jonc/Sites/joncanady-blog" 
+blog_dir = "/Users/jonc/Sites/joncanady-blog"
 
 
 require 'optparse'
@@ -46,7 +47,7 @@ optparse = OptionParser.new do |opts|
   opts.banner = "Usage: newpost [options] \"title of post\""
 
   options[:draft] = false
-  opts.on('-d', '--draft', 'Create post as a draft') do 
+  opts.on('-d', '--draft', 'Create post as a draft') do
     options[:draft] = true
   end
 
@@ -73,7 +74,7 @@ rescue OptionParser::InvalidOption => e
   puts o
   exit 1
 end
- 
+
 if ARGV[0].nil?
   optparse.display
   exit 1
@@ -87,19 +88,19 @@ postname = ARGV[0].strip.downcase.gsub(/ /, '-')
 post_dir = options[:draft] ? '_drafts' : '_posts'
 
 post = "#{blog_dir}/#{post_dir}/#{date_prefix}-#{postname}.#{options[:format]}"
- 
+
 header = <<-END
 ---
 layout: post
 title: #{ARGV[0]}
 ---
- 
+
 END
- 
+
 File.open(post, 'w') do |f|
   f << header
 end
- 
+
 system("mate", "-a", post)
 
 

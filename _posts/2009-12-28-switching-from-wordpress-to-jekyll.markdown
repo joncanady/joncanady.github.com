@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Switching to Jekyll
+categories: meta
 ---
 
 Overnight there's been some pretty major changes around here.

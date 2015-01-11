@@ -1,8 +1,9 @@
---- 
+---
 wordpress_id: 88
 layout: post
 title: How To Fix a Shitty Project
 wordpress_url: http://joncanady.com/2009/11/how-to-fix-a-shitty-project/
+categories: software
 ---
 Way back in the Dark Ages of the Internet (2000), Joel Spolsky [wrote](http://www.joelonsoftware.com/articles/fog0000000069.html) of Netscape's impending version 6 release:
 
@@ -16,6 +17,6 @@ Most developers can instantly conjure up at least one project they'd love to rew
 
 Don't do it.  It's a horrible idea.  Now you've reset your entire timeline back to zero, and you don't know *when* you'll be done.  (Say, where's [TextMate 2](http://macromates.com)?)  Not to mention the regression bugs you'll undoubtedly let slip in.
 
-Instead of rewriting the whole thing from nothing, **incrementally fix things.**  Don't commit a *single* change that doesn't leave the code better than you found it.  Move business logic out of controllers and into models.  Changing a feature?  Cover the whole feature with tests.  
+Instead of rewriting the whole thing from nothing, **incrementally fix things.**  Don't commit a *single* change that doesn't leave the code better than you found it.  Move business logic out of controllers and into models.  Changing a feature?  Cover the whole feature with tests.
 
 Eventually, you'll find you've rewritten all the shitty parts of the project anyway and it's not so bad anymore.

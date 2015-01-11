@@ -1,8 +1,9 @@
---- 
+---
 wordpress_id: 89
 layout: post
 title: Two Simple Rules for Screencasting
 wordpress_url: http://joncanady.com/2009/11/two-simple-rules-for-screencasting/
+categories: software
 ---
 During the process of trying to figure out what [Compass](http://compass-style.org/) is, I tried to watch the official Compass [screencast](http://wiki.github.com/chriseppstein/compass). This was a mistake. Thinking of writing an introductory screencast for your product? Learn from their mistakes.
 

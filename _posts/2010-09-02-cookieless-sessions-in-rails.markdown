@@ -1,8 +1,9 @@
 ---
 layout: post
 title: Cookieless sessions in Rails
+categories: software
 ---
- 
+
 I'm doing some cross-domain JSONP work that requires a session, but
 Safari doesn't like third-party cookies, even if you use the
 ridiculous [P3P protocol](http://en.wikipedia.org/wiki/P3P) stuff that
@@ -17,7 +18,7 @@ false (it's true by default):
 ActionController::Base.session = {
   :key         => '_session_name',
   :secret      => 'abunchofrandomcharacters',
-  :cookie_only => false 
+  :cookie_only => false
 }
 
 # without cookies, you'll need a different session store
@@ -29,5 +30,3 @@ Rails will pick up on that and initialize the session using that
 id. Do be aware that this increases the liklihood of [session fixation
 attacks](http://guides.rubyonrails.org/security.html), so determine if
 that's an acceptable tradeoff for your application.
-
-

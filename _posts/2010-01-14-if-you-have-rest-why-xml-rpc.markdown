@@ -1,8 +1,9 @@
 ---
 layout: post
 title: If you have REST, why XML-RPC?
+categories: software
 ---
- 
+
 ## Update
 
 There's points going back and forth on [Hacker News](http://news.ycombinator.com/item?id=1052926) today -- I don't know if HN archives its threads forever, so if that link breaks let me know.
@@ -30,7 +31,7 @@ Let's say you know I provide Employee information for a company, and you need to
 
 ### With XML-RPC
 
-In your programming language of choice, fire up an appropriate library and have it read in my auto-generated XML description of my service. Then, call the `SearchEmployeesByName()` method and give it the employee's name. Your library will create the XML for the request, decode the XML from the response, and likely give you a native object that you can manipulate.  You can then find the employee you want and call `GetEmployeeDetailsById()` and pass the specific employee ID you found in step one. 
+In your programming language of choice, fire up an appropriate library and have it read in my auto-generated XML description of my service. Then, call the `SearchEmployeesByName()` method and give it the employee's name. Your library will create the XML for the request, decode the XML from the response, and likely give you a native object that you can manipulate.  You can then find the employee you want and call `GetEmployeeDetailsById()` and pass the specific employee ID you found in step one.
 
 ### With REST
 
@@ -38,7 +39,7 @@ If you just need some data, open your web browser and go to `http://my-fake-serv
 
 Assuming you want to access the data programmatically, make an HTTP request to `/employees.json` and get a JSON representation of my employees. Then, once you've have the ID, make a second request to `/employees/121.json`, and decode the JSON response.
 
-That's not all. If you need an image of the employee, try `/employees/121.jpg`. If you need the data as a PDF, try `/employees/121.pdf`.  REST isn't limited to providing XML responses, it can provide any format the server supports.  
+That's not all. If you need an image of the employee, try `/employees/121.jpg`. If you need the data as a PDF, try `/employees/121.pdf`.  REST isn't limited to providing XML responses, it can provide any format the server supports.
 
 And it's easy to provide a list of related links to other representations or related resources.
 
@@ -49,13 +50,13 @@ No clue. During an impassioned speech, I got a lot of questions or statements, u
 <dl>
 	<dt>How do you know if an error occurred?</dt>
 	<dd>HTTP provides statuses for nearly any error you can encounter. You probably know about "404 Document Not Found"; there's <a href="http://en.wikipedia.org/wiki/List_of_HTTP_status_codes">tons more</a>, including "400 Bad Request" (I don't understand what you want), "401 Unauthorized" (You need to authenticate first), and more esoteric but useful codes such as "201 Created" (We've created a resource based on your input), "402 Payment Required" (We need money for this), and "409 Conflict" (Someone else changed this resource before you did, you should try again).  With XML-RPC you have to re-invent all of these.</dd>
-	
+
 	<dt>XML-RPC provides automatic documentation.</dt>
 	<dd>Well, your library automatically generates documentation like "getUser() takes an integer and returns a UserStruct" -- you still have to define what a UserStruct is and what that integer means. Kudos if your library can automatically generate those, but now we're discussing specific implementations, which is a separate issue.</dd>
-	
+
 	<dt>How do you know if your data's valid?</dt>
 	<dd>You test it, same way you do with XML-RPC. Someone actually asked how you know a date is a date if the XML doesn't specifically tell you it's a date. If I'm providing a piece of data called "expiration_date" and it's <em>not</em> a date, that's something the client needs to handle regardless of how it obtained it.</dd>
-	
+
 	<dt>REST seems too restrictive.</dt>
 	<dd>REST doesn't force you to always talk about representations of resources, but you gain a lot of simplicity if you do. For example, you can have a "Dashboard" resource who's representation is as a bunch of overview data in whatever format.<br><br>One of our issues was "I want to provide a count of a particular resource instead of returning the whole list." You can absolutely do that: if you have /employees.json that provides a JSON list of all employees, knock a parameter on there: /employees.json?count=true -- it seems unclean, but all the logic for retrieving employee data stays in one place, instead of scattered around multiple methods like "GetEmployees()", "GetEmployeeCount()", "GetActiveEmployeeCount()" and so on.</dd>
 

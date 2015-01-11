@@ -1,10 +1,11 @@
 ---
 layout: post
 title: On Buying Video Games Used
+categories: games
 ---
 
 ## When did crippling products become acceptable?
- 
+
 An [anonymous video game
 dev (second down)](http://www.penny-arcade.com/2010/8/25/lets-go-phones/)
 wrote in to [Penny Arcade](http://penny-arcade.com) to discuss buying
@@ -33,7 +34,7 @@ In the used video game case, you're really buying two things:
 
 1. The physical medium the game code is stored on, which usually also
 suffers from some physical wear, like scratches, missing manuals,
-etc. 
+etc.
 2. The game executables, which do not suffer from
 wear.
 
