@@ -4,7 +4,7 @@ title: Spoke at CodeMash v2.0.1.5
 categories: speaking
 ---
 
-On Friday, Jan 9, at a little past 09:00, I finished presenting my first talk at a conference. I usually speak at [Columbus Ruby Brigade)[http://columbusrb.com] to a captive audience of 30-40 people; CodeMash is a *huge* convention and I wasn't guaranteed to have *anyone* show up! Here's the things I took away from my experience.
+On Friday, Jan 9, at a little past 09:00, I finished presenting my first talk at a conference. I usually speak at [Columbus Ruby Brigade](http://columbusrb.com) to a captive audience of 30-40 people; CodeMash is a *huge* convention and I wasn't guaranteed to have *anyone* show up! Here's the things I took away from my experience.
 
 
 ### Drop the self deprecation
