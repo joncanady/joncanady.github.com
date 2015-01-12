@@ -8,6 +8,10 @@ logo: false
 paginate: 15
 baseurl: /
 domain_name: 'http://joncanady.com'
+
+# for keybase,io's proof
+include: [".well-known"]
+
 # google_analytics: 'UA-XXXXXXXX-X'
 
 # Details for the RSS feed generator
