@@ -9,6 +9,9 @@ paginate: 15
 baseurl: /
 domain_name: 'http://joncanady.com'
 
+permalink: /:year/:month/:day/:title/
+
+
 # for keybase,io's proof
 include: [".well-known"]
 
