@@ -3,6 +3,7 @@ layout: default
 title: Home
 cover: /assets/images/jonc-header.png
 about: 'about.html'
+now: 'now.html'
 ---
 
 <header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
@@ -19,8 +20,11 @@ about: 'about.html'
             <h1 class="page-title">{{ site.name }}</h1>
             <h2 class="page-description">
                 {% if site.description %} {{ site.description }}. {% endif %}
-                {% if page.about %} <a href='{{ site.baseurl }}{{ page.about }}'> About me </a> {% endif %}
+
             </h2>
+            <h3 class="nav">
+              {% if page.about %} <a href='{{ site.baseurl }}{{ page.about }}'> about </a> {% endif %}
+              {% if page.now %} | <a href='{{ site.baseurl }}{{ page.now }}'> now </a> {% endif %}
         </div>
     </div>
     <a class="scroll-down icon-arrow-left" href="#content" data-offset="-45"><span class="hidden">Scroll Down</span></a>
